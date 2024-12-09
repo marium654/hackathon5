@@ -20,21 +20,21 @@ export default function Aboutus() {
             <Image
               className="object-cover object-center w-309px h-271px mt-584px ml-660px radius-6px"
               alt="image2"
-              src="/youget.png"
+              src="/yougart.png"
               width={309} height={271}
             />
             {/* Bottom Image */}
             <Image
               className="object-cover object-center w-309px h-382px mt-882px ml-660px radius-6px"
               alt="image3"
-              src="/youget2.png"
+              src="/yougart2.png"
               width={309} height={382}
             />
           </div>
           {/* Text Content and Buttons */}
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 className="text-sm mb-4 font-medium text-yellow-400 italic">
-              About us _____
+              About us ___
             </h1>
             <p className="text-black title-font text-3xl font-bold">
               Food is an important part of a balanced Diet
@@ -68,8 +68,7 @@ export default function Aboutus() {
           <Image
             className="mb-10 object-cover object-center w-1320px h-386px mt-1552px ml-300px mt-10"
             alt="hero"
-            src = "/about.png"
-            width={1320} height={386}
+            src = "/about.png"width={1320} height={386}
           />
         </div>
       </section>

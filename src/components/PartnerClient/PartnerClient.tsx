@@ -24,7 +24,7 @@ export default function PartnersAndClients() {
         {partners.map((partner, index) => (
           <div key={index} className="flex justify-center">
             <Image
-              src={partner.logo}
+              src={partner.logo} width={100} height={100}
               alt={`${partner.name} logo`}
               className="max-h-24 sm:max-h-32 w-auto grayscale hover:grayscale-0 transition-all duration-300"
             />
